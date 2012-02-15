@@ -10,6 +10,7 @@
 # supports.
 
 # Extending <tt>ActionView::Base</tt> to support rendering themes
+require 'config'
 require 'imagemagick_wrapper'
 module ActionView
   # Extending <tt>ActionView::Base</tt> to support rendering themes
