@@ -10,6 +10,6 @@ module ImageMagickWrapper
        options << "+antialias" 
      end
     
-     system("convert #{options.collect.join(' ')} #{src} #{out}")
+     system("convert #{options.join(' ')} #{src} #{out}")
    end
 end
